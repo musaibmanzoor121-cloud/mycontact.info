@@ -1,0 +1,196 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEREAZ FURNITURES</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #6B3410;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #8B4513;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .contact-item {
+            background: #F5F5DC;
+            border-left: 4px solid #8B4513;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            text-align: left;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(139, 69, 19, 0.2);
+        }
+
+        .contact-item .icon {
+            font-size: 24px;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+
+        .contact-item .label {
+            font-weight: 600;
+            color: #6B3410;
+            font-size: 14px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-item .value {
+            color: #333;
+            font-size: 16px;
+            word-break: break-word;
+        }
+
+        .contact-item a {
+            color: #8B4513;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-item a:hover {
+            color: #D2691E;
+        }
+
+        .social-section {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid #F5F5DC;
+        }
+
+        .social-section h2 {
+            color: #6B3410;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .social-btn {
+            background: #8B4513;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.3s;
+            display: inline-block;
+        }
+
+        .social-btn:hover {
+            background: #6B3410;
+            transform: scale(1.05);
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #8B4513;
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .contact-item {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🪵</div>
+        <h1>Get In Touch</h1>
+        <p class="subtitle">Your Woodworking Partner</p>
+
+        <div class="contact-item">
+            <span class="icon">📱</span>
+            <span class="label">PHONE</span>
+            <div class="value">
+                <a href="tel:+919906546255">+919906546225</a>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <span class="icon">✉️</span>
+            <span class="label">EMAIL</span>
+            <div class="value">
+                <a href="mailto:tawheedahmad@gmail.com">tawheedahmad@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <span class="icon">📍</span>
+            <span class="label">ASHAJIPORA</span>
+            <div class="value">Crafting Quality Since 1980</div>
+        </div>
+
+        <div class="social-section">
+            <h2>Follow Us</h2>
+            <div class="social-links">
+                <a href="https://instagram.com/yourpage" class="social-btn" target="_blank">Instagram</a>
+                <a href="https://facebook.com/yourpage" class="social-btn" target="_blank">Facebook</a>
+                <a href="https://youtube.com/yourchannel" class="social-btn" target="_blank">YouTube</a>
+                <a href="https://pinterest.com/yourpage" class="social-btn" target="_blank">Pinterest</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🪓 Handcrafted with Passion 🪓</p>
+        </div>
+    </div>
+</body>
+</html>
